@@ -1,3 +1,17 @@
+## Introduction ##
+ What if you could post something and know it wouldn’t live forever? This project creates a place for our passing thoughts. Once you add a short thought, it’ll disappear after just 15 seconds. 
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
