@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-size: 20pt;
+    font-family: 'Oooh Baby', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url('https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3300&q=80');
+
+  }
+  
+  input,
+  button {
+    font: inherit;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+  
+  input[type='submit'],
+  button {
+    cursor: pointer;
+    font-family: 'Rozha One', serif;
+    font-style:italic;
+    font-weight: 100;
+    color:rgb(43, 40, 40);
+  }
+  
+  .App {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 95%; 
+  }
+
+ .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  
+  
+  .AddThoughtForm {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .AddThoughtForm input {
+    padding: 1.5rem;
+    border: 1px solid rgba(228, 97, 10, 0.527);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  }
+  
+  .AddThoughtForm input[type='text'] {
+    flex-grow: 1;
+    margin-right: 0.5rem;
+  }
+  
+  .thoughts {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Thought {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    background-color: rgba(245, 163, 96, 0.7);
+  }
+  
+  .Thought .remove-button {
+    font-size: 80%;
+    float: right;
+    border: 0;
+    border-radius: 3px;
+    background: transparent;
+  }
+  
+  .Thought .remove-button:hover {
+    color: #fff;
+    background-color: rgb(43, 40, 40);
+  }
+  
