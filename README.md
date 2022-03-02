@@ -1,11 +1,24 @@
 ## Introduction ##
  What if you could post something and know it wouldn’t live forever? This project creates a place for our passing thoughts. Once you add a short thought, it’ll disappear after just 15 seconds. 
+ 
+ 
+ ## About the project ##
+ 
+ This project is deployed here : https://passing-thoughts-app.netlify.app/
+
+![My image](screenshot.png)
 
 
+## Function Components and Hooks: ##
+
+### The State Hook ###
+
+New thoughts are stored in State. They can be removed manualy.
 
 
+### The Effect Hook ###
 
-
+Or each [new] thought will be automatically removed after 15 seconds.
 
 
 
