@@ -18,7 +18,7 @@ New thoughts are stored in State. They can be removed manualy.
 
 ### The Effect Hook ###
 
-Or each [new] thought will be automatically removed after 15 seconds.
+Each [new] thought will be automatically removed after 15 seconds.
 
 
 
